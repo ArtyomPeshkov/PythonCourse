@@ -1,0 +1,115 @@
+=====    ab_test.txt   =====
+python .\ht1_tail.py .\tests\ab_test.txt     
+a
+b
+b
+b
+b
+b
+b
+b
+b
+b
+
+=====   different.txt  =====
+python .\ht1_tail.py .\tests\different.txt   
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+
+===== empty_middle.txt =====
+python .\ht1_tail.py .\tests\empty_middle.txt
+
+a
+b
+c
+
+
+
+a
+b
+c
+
+=====     empty.txt    =====
+python .\ht1_tail.py .\tests\empty.txt
+
+=====    single.txt    =====
+python .\ht1_tail.py .\tests\single.txt      
+a
+
+=====  sgl, emmd, dif  =====
+python .\ht1_tail.py .\tests\single.txt .\tests\empty_middle.txt .\tests\different.txt
+==> .\tests\single.txt <==
+a
+
+==> .\tests\empty_middle.txt <==
+a
+b
+c
+
+
+
+a
+b
+c
+
+==> .\tests\different.txt <==
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+
+
+=====      stdin       =====
+python .\ht1_tail.py                         
+a
+b
+c
+d
+e
+1
+2
+3
+4
+5
+k
+l
+m
+n
+o
+6
+7
+8
+9
+10
+^Z
+d
+e
+1
+2
+3
+4
+5
+k
+l
+m
+n
+o
+6
+7
+8
+9
+10

@@ -1,0 +1,76 @@
+=====    ab_test.txt   =====
+python .\ht1_nl.py .\tests\ab_test.txt       
+1       a
+2       a
+3       a
+4       a
+5       a
+6       a
+7       a
+8       a
+9       a
+10      a
+11      a
+12      b
+13      b
+14      b
+15      b
+16      b
+17      b
+18      b
+19      b
+20      b
+
+=====   different.txt  =====
+python .\ht1_nl.py .\tests\different.txt 
+1       a
+2       b
+3       c
+4       d
+5       e
+6       f
+7       g
+8       h
+9       i
+10      j
+11      k
+12      l
+13      m
+14      n
+15      o
+16      p
+
+===== empty_middle.txt =====
+python .\ht1_nl.py tests/empty_middle.txt
+1       a
+2       b
+3       c
+4        
+5
+6
+7       a
+8       b
+9       c
+
+=====     empty.txt    =====
+python .\ht1_nl.py tests/empty.txt
+
+=====    single.txt    =====
+python .\ht1_nl.py tests/single.txt
+1       a
+
+=====      stdin       =====
+python .\ht1_nl.py
+a
+1       a
+b
+2       b
+c
+3       c
+
+
+
+
+f
+4       f
+^Z

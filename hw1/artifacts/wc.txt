@@ -1,0 +1,38 @@
+=====    ab_test.txt   =====
+python .\ht1_wc.py .\tests\ab_test.txt       
+19 20 58 .\tests\ab_test.txt
+
+=====   different.txt  =====
+python .\ht1_wc.py .\tests\different.txt     
+16 16 48 .\tests\different.txt
+
+===== empty_middle.txt =====
+python .\ht1_wc.py .\tests\empty_middle.txt  
+8 6 23 .\tests\empty_middle.txt
+
+=====     empty.txt    =====
+python .\ht1_wc.py .\tests\empty.txt         
+0 0 0 .\tests\empty.txt
+
+=====    single.txt    =====
+python .\ht1_wc.py .\tests\single.txt        
+0 1 1 .\tests\single.txt
+
+=====  sgl, em_md, dif =====
+python .\ht1_wc.py ./tests/single.txt ./tests/empty_middle.txt ./tests/different.txt
+0 1 1 ./tests/single.txt
+8 6 23 ./tests/empty_middle.txt
+16 16 48 ./tests/different.txt
+24 23 72 total
+
+=====      stdin       =====
+python .\ht1_wc.py                           
+a
+b
+c
+d
+
+
+fdfdf
+^Z
+7 5 16
