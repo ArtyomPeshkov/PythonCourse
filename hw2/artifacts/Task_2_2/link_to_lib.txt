@@ -1,0 +1,1 @@
+https://anaconda.org/ArtyomPeshkov/simple_latex_gen
